@@ -1,4 +1,4 @@
- @if ($create)
+@if ($create)
         <div class="modal fade show" id="modal-default" style="display: block; padding-right: 17px;">
             <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -42,7 +42,7 @@
                                 <select wire:model="kategori_id" wire:click="pilihKategori" class="form-control" id="kategori">
                                     <option selected value="">Pilih Kategori</option>
                                     @foreach ($kategori as $item)
-                                       <option value="{{$item->id}}">{{$item->nama}}</option>             
+                                    <option value="{{$item->id}}">{{$item->nama}}</option>             
                                     @endforeach
                                 </select>
                                 @error('kategori_id') <small class="text-danger">{{ $message }}</small> @enderror

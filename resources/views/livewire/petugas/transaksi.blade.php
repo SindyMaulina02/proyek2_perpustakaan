@@ -39,10 +39,10 @@
                     <th>Tanggal Pinjam</th>
                     <th>Tanggal Kembali</th>
                     <th>Denda</th>
-                    <th>Status</th>
-                   @if (!$selesai_dipinjam)
+                    <th>Status</th> 
+                    @if (!$selesai_dipinjam)
                         <th width="15%">Aksi</th>
-                   @endif
+                        @endif
                 </tr>
                 </thead>
                 <tbody>
@@ -57,7 +57,7 @@
                                 @endforeach
                             </ul>
                         </td>
-                       <td>
+                    <td>
                             <ul>
                                 @foreach ($item->detail_peminjaman as $detail_peminjaman)
                                 <li>{{$detail_peminjaman->buku->rak->lokasi}}</li>
@@ -76,7 +76,7 @@
                                 <span class="badge bg-fuchsia">Selesai Dipinjam</span>
                             @endif
                         </td>
-                       @if (!$selesai_dipinjam)
+                        @if (!$selesai_dipinjam)
                             <td>
                                 @if ($item->status == 1)
                                     <span wire:click="pinjam({{$item->id}})" class="btn btn-sm btn-success mr-2">Pinjam</span>
@@ -84,18 +84,18 @@
                                     <span wire:click="kembali({{$item->id}})" class="btn btn-sm btn-primary mr-2">Kembali</span>
                                 @endif
                             </td>
-                       @endif
+                            @endif
                     </tr>
                 @endforeach
                 </tbody>
             </table>
         </div>
         <!-- /.card-body -->
-      @endif
+        @endif
     </div>
     <!-- /.card -->
 
-     <div class="row justify-content-center">
+    <div class="row justify-content-center">
         {{$transaksi->links()}}
     </div>
 

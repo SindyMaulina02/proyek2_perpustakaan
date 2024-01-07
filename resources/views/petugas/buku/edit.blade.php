@@ -1,4 +1,4 @@
- @if ($edit)
+@if ($edit)
         <div class="modal fade show" id="modal-default" style="display: block; padding-right: 17px;">
             <div class="modal-dialog modal-lg">
             <div class="modal-content">

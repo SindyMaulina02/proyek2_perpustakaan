@@ -1,4 +1,4 @@
- @if ($delete)
+@if ($delete)
         <div class="modal fade show" id="modal-default" style="display: block; padding-right: 17px;">
             <div class="modal-dialog">
             <div class="modal-content">

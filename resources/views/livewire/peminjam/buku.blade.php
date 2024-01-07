@@ -27,7 +27,7 @@
                 <img src="/storage/{{$buku->sampul}}" alt="{{$buku->judul}}" width="300" height="400">
             </div>
             <div class="col-md-8">
-                 <table class="table">
+                <table class="table">
                   <tbody>
                     <tr>
                       <th>Judul</th>

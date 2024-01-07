@@ -42,7 +42,7 @@
                 <p>Selesai Dipinjam</p>
               </div>
               <div class="icon">
-                 <i class="far fa-check-circle"></i>
+                <i class="far fa-check-circle"></i>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@
           <div class="col-md-12">
             <div class="card">
               <div class="card-body">
-                 <canvas id="myChart" height="125"></canvas>
+                <canvas id="myChart" height="125"></canvas>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@
             <div class="card">
               <div class="card-body">
                 <h5>Buku Terbaru</h5>
-                 <table class="table table-bordered">
+                <table class="table table-bordered">
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>
@@ -105,7 +105,7 @@
             <div class="card">
               <div class="card-body">
                 <h5>User Terbaru</h5>
-                 <table class="table table-bordered">
+                <table class="table table-bordered">
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>
@@ -131,7 +131,7 @@
             <div class="card">
               <div class="card-body">
                 <h5>Selesai Dipinjam</h5>
-                 <table class="table table-bordered">
+                <table class="table table-bordered">
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>
@@ -156,7 +156,7 @@
             <div class="card">
               <div class="card-body">
                 <h5>Sedang Dipinjam</h5>
-                 <table class="table table-bordered">
+              <table class="table table-bordered">
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>

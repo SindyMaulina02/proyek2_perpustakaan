@@ -15,10 +15,10 @@
     <div class="card">
         <div class="card-header">
             @if ($admin || $petugas || $peminjam)
-                 <span wire:click="create" class="btn btn-sm btn-primary">Tambah</span>
+            <span wire:click="create" class="btn btn-sm btn-primary">Tambah</span>
             @endif
 
-             <div class="card-tools">
+            <div class="card-tools">
                 <div class="input-group input-group-sm" style="width: 150px;">
                 <input wire:model="search" type="search" name="table_search" class="form-control float-right" placeholder="Search">
 

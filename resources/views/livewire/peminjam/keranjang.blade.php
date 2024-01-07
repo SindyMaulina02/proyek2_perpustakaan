@@ -27,8 +27,8 @@
     </div>
 
     <div class="row">
-        <div class="col-md-12">
-             <table class="table table-hover text-nowrap">
+        <div class="col-md-12"> 
+            <table class="table table-hover text-nowrap">
                 <thead>
                 <tr>
                     <th>No</th>
@@ -58,8 +58,10 @@
                     @endforeach
                 </tbody>
             </table>
+            <button wire:click="pinjam({{$keranjang->id}})" class="btn btn-sm btn-success">Pinjam </button>
+            <button wire:click="hapus({{$keranjang->id}}, {{$item->id}})" class="btn btn-sm btn-danger">Hapus</button>
             @if (!$keranjang->tanggal_pinjam)
-                 <button wire:click="hapusMasal" class="btn btn-sm btn-danger">Hapus Masal</button>
+            <button wire:click="hapusMasal" class="btn btn-sm btn-danger">Hapus Masal</button>
             @endif        
         </div>
     </div>
